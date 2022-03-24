@@ -1,0 +1,87 @@
+* {
+   padding: 0;
+   margin: 0; 
+}
+#TextoA p {
+    margin-top: 40px;
+    font-size: large;
+    padding-left: 40px;
+}
+#destacado{
+    padding-left: 15px;
+    font-size: 23px;
+}
+header {
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+nav {
+    float: left;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px; 
+    font-style: italic;
+}
+nav ul li a{
+    display: block; 
+    padding: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background: #3ead47;
+}
+#TextoA{
+    padding-top: 80px; 
+    width: 80%;
+    overflow: hidden;
+}
+#titulo{
+    font-size: 45px;
+    padding-left: 15px;
+    line-height: 1;
+}
+footer{
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+#logos{
+    padding-left: 40px;
+    height: 50px;
+}
+#consultorio{
+    border: solid silver 3px;
+    width: 40%;
+    height: 40%;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#perrito{
+    border: solid silver 3px;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 40%;
+    height: 475px;
+}
+#servicios #primer-imagen{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    text-indent: 0;
+}
+#servicios #segunda-imagen{
+    text-align: center;
+    font-style: italic;
+    font-size: medium;
+    text-indent: 0;
+}
